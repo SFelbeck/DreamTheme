@@ -4,7 +4,7 @@ const {Theme, User} = require("../models/");
 
 router.get("/", (req, res) => {
 //   if(!req.session.user){
-//     return res.status(401).json({msg:"ya gotta login to create a blog post!"})
+//     return res.status(401).json({msg:"please login first!"})
 // }
     Theme.findAll({}).then(dbThemes => {
         res.json(dbThemes);
@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
 
 router.get("/:id", (req, res) => {
 //   if(!req.session.user){
-//     return res.status(401).json({msg:"ya gotta login to create a blog post!"})
+//     return res.status(401).json({msg:"please login first!"})
 // }
     Theme.findByPk(req.params.id,{})
       .then(dbTheme => {
