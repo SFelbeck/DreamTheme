@@ -2,13 +2,10 @@ const express = require('express');
 const router = express.Router();
 
 const userRoutes = require("./userRoutes");
-router.use("/api/users", userRoutes)
+router.use("/users", userRoutes)
 
 const themeRoutes = require("./themeRoutes");
-router.use("/api/themes", themeRoutes)
-
-const frontEnd = require("./frontEndRoutes");
-router.use("/", frontEnd)
+router.use("/themes", themeRoutes)
 
 router.get("/showsessions", (req,res) => {
     res.json(req.session)

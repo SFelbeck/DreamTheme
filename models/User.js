@@ -38,7 +38,7 @@ User.init(
         theme_id: {
             type: DataTypes.INTEGER,
             references: {
-                model: 'Theme',
+                model: 'theme',
                 key: 'id',
             },
         },
