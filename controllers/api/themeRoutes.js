@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {Theme, User} = require("../models/");
+const {Theme, User} = require("../../models");
 
 router.get("/", (req, res) => {
 //   if(!req.session.user){

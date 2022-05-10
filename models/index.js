@@ -1,10 +1,7 @@
 const User = require('./User');
 const Theme = require('./Theme');
 
-Theme.hasMany(User, {
-    foreignKey: 'user_id',
-    onDelete: 'SET NULL'
-});
+Theme.hasMany(User);
 
 User.belongsTo(Theme, {
     foreignKey: 'theme_id'
