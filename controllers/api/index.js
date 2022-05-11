@@ -15,6 +15,6 @@ router.get("/checklogin", (req,res) => {
     if(!req.session.user){
         return res.status(401).json({msg:"please login first"})
     }
-    res.json({msg: `You are now logged in ${req.session.user.username}`})
+    res.json({msg: `You are now logged in ${req.session.user.email}`})
 })
 module.exports = router;
