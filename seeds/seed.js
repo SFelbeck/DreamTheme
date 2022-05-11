@@ -4,9 +4,53 @@ const { User, Theme } = require("../models")
 
 const themes = [
     {
-        name: "Dark",
-        styleSheet: "This is all the style sheet text"
-    }
+        name: "Masonry",
+        styleSheet: '<link rel="stylesheet" href="style.css">'
+    },
+    {
+        name: "Dark_Masonry",
+        styleSheet: ''
+    },
+    {
+        name: "Sunset",
+        styleSheet: ''
+    },
+    {
+        name: "Beach",
+        styleSheet: ''
+    },
+    {
+        name: "Forest",
+        styleSheet: ''
+    },
+    {
+        name: "Dusk",
+        styleSheet: ''
+    },
+    {
+        name: "Techno",
+        styleSheet: ''
+    },
+    {
+        name: "Red_Alert",
+        styleSheet: ''
+    },
+    {
+        name: "Egg_Hunt",
+        styleSheet: ''
+    },
+    {
+        name: "UW",
+        styleSheet: ''
+    },
+    {
+        name: "Monochrome",
+        styleSheet: ''
+    },
+    {
+        name: "Autumn",
+        styleSheet: ''
+    },
 ]
 
 const users = [
@@ -15,7 +59,7 @@ const users = [
         email: "anoor@noor.com",
         password: "password",
         theme_id: "1"
-    }
+    },
 ]
 
 
