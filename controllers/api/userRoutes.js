@@ -39,9 +39,12 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-  User.update(req.body, {
+  console.log(req.params.id)
+  User.update({
+    theme_id: req.params.id
+  }, {
     where: {
-      id: req.params.id
+      id: req.session.user.user_id
     }
   }).then(updatedUser => {
     res.json(updatedUser);
