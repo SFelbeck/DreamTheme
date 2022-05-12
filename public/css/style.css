@@ -1,196 +1,276 @@
-.card_display {
-  display: table-row;
-  gap: 10px;
-  /* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
-  grid-template-rows: masonry;
+* {
+    box-sizing: border-box;
 }
-.theme_card {
-    width: 350px; 
-    height:700px;
+
+.grid {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
 }
-.card-body {
-    width: 350px;
-    height: 140px;
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
 }
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.card_container {
+    width: 33%;
+}
+
+.grid-item {
+    float: left;
+    border: 2px solid #333;
+    border-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 5px;
+}
+
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+
 #card_1 {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 #card_2 {
-    font-family: 'Andada Pro', serif;    
+    font-family: 'Andada Pro', serif;
 }
+
 #card_3 {
     font-family: 'Anton', sans-serif;
 }
+
 #card_4 {
     font-family: 'BioRhyme', serif;
 }
+
 #card_5 {
     font-family: 'Cormorant', serif;
 }
+
 #card_6 {
     font-family: 'Hahmlet', serif;
 }
+
 #card_7 {
     font-family: 'JetBrains Mono', monospace;
 }
+
 #card_8 {
     font-family: 'Nunito', sans-serif;
 }
+
 #card_9 {
     font-family: 'Encode Sans', sans-serif;
 }
+
 #card_10 {
     font-family: 'Raleway', sans-serif;
 }
+
 #card_11 {
     font-family: 'Roboto', sans-serif;
 }
+
 #card_12 {
     font-family: 'Sora', sans-serif;
 }
 
 
 #theme_color_1 {
-    background-color:#112b3c;
+    background-color: #112b3c;
 }
+
 #theme_color_2 {
-    background-color:#205375;
+    background-color: #205375;
 }
+
 #theme_color_3 {
     background-color: #f66b0e;
 }
+
 #theme_color_4 {
-    background-color:#efefef;
+    background-color: #efefef;
 }
+
 #theme_color_5 {
     background-color: #541690;
 }
+
 #theme_color_6 {
     background-color: #ff4949;
 }
+
 #theme_color_7 {
     background-color: #ff8d29;
 }
+
 #theme_color_8 {
-    background-color:#ffcd38;
+    background-color: #ffcd38;
 }
+
 #theme_color_9 {
     background-color: #c4ddff;
 }
+
 #theme_color_10 {
     background-color: #7fb5ff;
 }
+
 #theme_color_11 {
     background-color: #001d6e;
 }
+
 #theme_color_12 {
     background-color: #fee2c5;
 }
+
 #theme_color_13 {
     background-color: #e9efc0;
 }
+
 #theme_color_14 {
     background-color: #b4e197;
 }
+
 #theme_color_15 {
     background-color: #83bd75;
 }
+
 #theme_color_16 {
     background-color: #4e944f;
 }
+
 #theme_color_17 {
     background-color: #e9d5da;
 }
+
 #theme_color_18 {
     background-color: #827397;
 }
+
 #theme_color_19 {
     background-color: #4d4c7d;
 }
+
 #theme_color_20 {
     background-color: #363062;
 }
+
 #theme_color_21 {
     background-color: #212121;
 }
+
 #theme_color_22 {
     background-color: #323232;
 }
+
 #theme_color_23 {
     background-color: #0d7377;
 }
+
 #theme_color_24 {
     background-color: #14ffec;
 }
+
 #theme_color_25 {
     background-color: #2b2e4a;
 }
+
 #theme_color_26 {
     background-color: #e84545;
 }
+
 #theme_color_27 {
     background-color: #903749;
 }
+
 #theme_color_28 {
     background-color: #53354a;
 }
+
 #theme_color_29 {
     background-color: #ffcfdf;
 }
+
 #theme_color_30 {
     background-color: #fefdca;
 }
+
 #theme_color_31 {
     background-color: #e0f9b5;
 }
+
 #theme_color_32 {
     background-color: #a5dee5;
 }
+
 #theme_color_33 {
     background-color: #4b2e83;
 }
+
 #theme_color_34 {
     background-color: #b7a57a;
 }
+
 #theme_color_35 {
     background-color: #85754d;
 }
+
 #theme_color_36 {
     background-color: #d9d9d9;
 }
+
 #theme_color_37 {
     background-color: #f0f5f9;
 }
+
 #theme_color_38 {
     background-color: #c9d6df;
 }
+
 #theme_color_39 {
     background-color: #52616b;
 }
+
 #theme_color_40 {
     background-color: #1e2022;
 }
+
 #theme_color_41 {
     background-color: #9fc088;
 }
+
 #theme_color_42 {
     background-color: #e8c07d;
 }
+
 #theme_color_43 {
     background-color: #cc704b;
 }
+
 #theme_color_44 {
     background-color: #614124;
 }
+
 #theme_color_45 {
     background-color: #d8d6d2;
 }
+
 #theme_color_46 {
     background-color: #d26;
 }
+
 #theme_color_47 {
     background-color: #a2c;
 }
+
 #theme_color_48 {
     background-color: #ffffff;
 }

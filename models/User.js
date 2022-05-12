@@ -37,6 +37,7 @@ User.init(
         },
         theme_id: {
             type: DataTypes.INTEGER,
+            defaultValue: 1,
             references: {
                 model: 'theme',
                 key: 'id',
