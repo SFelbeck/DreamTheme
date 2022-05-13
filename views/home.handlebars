@@ -1,14 +1,14 @@
 <section style="display: none;">
 {{#each themes}}
-<div class = "card_container">
+{{!-- <div class = "card_container"> --}}
 <div class="card_display grid-item">
-    <div class="theme_card text-center" id="{{id}}">
-        <div class="card-header" id="theme_description">
+        <div class="card-header text-center" id="theme_description">
             <h5>{{name}}</h5>
         </div>
-        <img src="http://placekitten.com/200/300" alt="">
+    <div class="theme_card" id="{{id}}">
+        <img src="/assets/{{name}}.png" alt="">
     </div>
-</div>
+{{!-- </div> --}}
 </div>
 {{/each}}
 </section>
