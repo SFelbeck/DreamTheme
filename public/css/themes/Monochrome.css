@@ -3,7 +3,7 @@ body {
     color: #1e2022;
     font-family: 'Raleway', sans-serif;
 }
-h1 {
+.grid-item:hover {
     color: #c9d6df;
 }
 .card-header {

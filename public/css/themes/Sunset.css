@@ -1,11 +1,11 @@
 body {
     background-color: #541690;
-    color: #ff4949;
+    color: #ffcd38;
     font-family: 'Andada Pro', serif;
 }
-h1 {
+.grid-item:hover {
     color: #ff8d29;
 }
 .card-header {
-    background-color: #ffcd38;
+    background-color: #ff4949;
 }

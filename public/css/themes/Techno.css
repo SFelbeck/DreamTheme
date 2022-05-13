@@ -1,11 +1,11 @@
 body {
-    background-color: #0d7377;
-    color: #212121;
+    background-color: #212121;
+    color: #14ffec;
     font-family: 'Hahmlet', serif;
 }
-h1 {
-    color: #14ffec;
+.grid-item:hover {
+    color: #323232;
 }
 .card-header {
-    background-color: #323232;
+    background-color: #0d7377;
 }

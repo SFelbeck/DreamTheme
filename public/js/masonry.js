@@ -5,10 +5,15 @@ let $grid = $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
     percentPosition: true,
-    isFitWidth: true
+    
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress(function () {
     $grid.masonry();
     sectionEl.style= {}
+    var $container =$('.grid');
+    $container.masonry({
+        itemSelector: '.grid-item',
+        isFitWidth: true
+    })
 });
