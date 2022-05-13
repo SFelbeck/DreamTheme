@@ -16,12 +16,12 @@ router.get("/",(req,res)=>{
     }).then(themes=>{
         if (req.session.user) {
             User.findByPk(req.session.user.user_id, {include: [Theme]}).then (userData => {
+                console.log(userData,req.session.user.user_id)
                 const hbsThemes = themes.map(theme=>theme.get({plain:true}))
                 console.log("==========")
                 console.log(hbsThemes)
                 const loggedIn = req.session.user?true:false
                 const hbsUserData = userData.get({plain:true})
-                res.json(hbsUserData)
                 res.render("home",{themes:hbsThemes,loggedIn,name:req.session.user?.name,theme:userData.theme.styleSheet})
 
             })
