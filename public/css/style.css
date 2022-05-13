@@ -27,12 +27,18 @@
     border: 2px solid #333;
     border-color: hsla(0, 0%, 0%, 0.5);
     border-radius: 5px;
+    justify-items: center!important;
 }
 
 .grid-item img {
     display: block;
     max-width: 100%;
 }
+
+/* div {
+    margin: 0 50px;
+
+} */
 
 #card_1 {
     font-family: 'Source Sans Pro', sans-serif;

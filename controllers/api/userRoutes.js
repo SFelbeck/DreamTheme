@@ -24,11 +24,13 @@ router.get("/:id", (req, res) => {
 });
 
 router.post("/", (req, res) => {
+  console.log(req.body)
   User.create(req.body)
     .then(newUser => {
       req.session.user = {
-        id: newUser.id,
-        email: newUser.email
+        user_id: newUser.id,
+        name: newUser.name,
+        logged_in: true
       }
       res.json(newUser);
     })
@@ -80,6 +82,7 @@ router.post('/logout', (req, res) => {
 });
 
 router.post("/login", (req, res) => {
+  console.log(req.body)
   User.findOne({
     where: {
       email: req.body.email
