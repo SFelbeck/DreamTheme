@@ -6,6 +6,6 @@ body {
 h1 {
     color: #827397;
 }
-div {
+.card-header {
     background-color: #4d4c7d;
 }
