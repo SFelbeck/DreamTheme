@@ -11,4 +11,9 @@ let $grid = $('.grid').masonry({
 $grid.imagesLoaded().progress(function () {
     $grid.masonry();
     sectionEl.style= {}
+    var $container =$('.grid');
+    $container.masonry({
+        itemSelector: '.grid-item',
+        isFitWidth: true
+    })
 });

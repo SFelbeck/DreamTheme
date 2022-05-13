@@ -1,11 +1,11 @@
 body {
-    background-color: #4e944f;
+    background-color: #b4e197;
     color: #e9efc0;
     font-family: 'BioRhyme', serif;
 }
-h1 {
+.grid-item:hover {
     color: #83bd75;
 }
 .card-header {
-    background-color: #b4e197;
+    background-color: #4e944f;
 }

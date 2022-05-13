@@ -1,11 +1,11 @@
 body {
-    background-color: #2b2e4a;
-    color: #53354a;
+    background-color: #903749;
+    color: #e84545;
     font-family: 'JetBrains Mono', monospace;
 }
-h1 {
-    color: #e84545;
+.grid-item:hover {
+    color: #53354a;
 }
 .card-header {
-    background-color: #903749;
+    background-color: #2b2e4a;
 }
