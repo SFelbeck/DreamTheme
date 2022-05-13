@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-secondary">
             <span class="navbar-brand mb-0 h1">Dream Theme</span>
             {{#if loggedIn}}
             <h2>Hey {{ name }}! Select your dream theme below!</h2>
@@ -36,6 +36,9 @@
         <div class="grid">
             <div class="grid-sizer"></div>
             {{{ body }}}
+    <footer class = "bg-secondary text-white text-center fixed-bottom">
+        Made with ❤️ by the Dream Theme team
+    </footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
