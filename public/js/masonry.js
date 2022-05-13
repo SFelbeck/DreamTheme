@@ -4,8 +4,8 @@ const sectionEl = document.querySelector('section')
 let $grid = $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
-    percentPosition: true,
-    
+    // percentPosition: true,
+    fitWidth: true
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress(function () {

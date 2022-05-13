@@ -12,17 +12,11 @@ const updateTheme = async (event) => {
 
     if (response.ok) {
         event
-        // setTimeout() for 1s include location reload
         location.reload()
     } else {
         alert(response.statusText);
     }
 };
-
-// document.querySelectorAll('.grid-item').forEach(element => {
-//     element.style.opacity = 1
-// })
-
 
 document.querySelectorAll('.theme_card').forEach(element => {
     element.addEventListener('click', updateTheme)
