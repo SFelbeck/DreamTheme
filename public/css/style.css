@@ -4,14 +4,16 @@
 
 .grid {
     max-width: 100%;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    
 }
 
 /* clear fix */
 .grid:after {
     content: '';
-    display: block;
+    /* display: block; */
     clear: both;
 }
 
@@ -23,14 +25,20 @@
 }
 
 .grid-item {
-    float: left;
+    /* float: left; */
     border: 2px solid #333;
     border-color: hsla(0, 0%, 0%, 0.5);
     border-radius: 5px;
+    /* justify-content: center; */
+    margin: 30px;
 }
 
 .grid-item img {
-    display: block;
+    /* display: block; */
     max-width: 100%;
 }
 
+/* div {
+    margin: 0 50px;
+
+} */
