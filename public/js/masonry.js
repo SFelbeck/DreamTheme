@@ -2,18 +2,14 @@ const sectionEl = document.querySelector('section')
 
 // mainEl.style.display = "none"
 let $grid = $('.grid').masonry({
+    // percentPosition: true,
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
-    // percentPosition: true,
-    fitWidth: true
+    fitWidth: true,
+    transitionDuration: '.8s'
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress(function () {
     $grid.masonry();
     sectionEl.style= {}
-    var $container =$('.grid');
-    $container.masonry({
-        itemSelector: '.grid-item',
-        isFitWidth: true
-    })
 });

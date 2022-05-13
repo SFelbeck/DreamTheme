@@ -55,8 +55,8 @@ const themes = [
 
 const users = [
     {
-        name: "Andrew",
-        email: "anoor@noor.com",
+        name: "Tester",
+        email: "test@test.com",
         password: "password",
         theme_id: "1"
     },
