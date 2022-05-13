@@ -22,13 +22,14 @@
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <span class="navbar-brand mb-0 h1">Dream Theme</span>
+            {{#if loggedIn}}
+            <h2>Hey {{ name }}! Select your dream theme below!</h2>
             <form class="form-inline">
-                {{#if loggedIn}}
                 <button class="no-button" id="logout">logout</button>
-                {{else}}
-                <a href="/login">login</a>
-                {{/if}}
             </form>
+            {{else}}
+            <span class="navbar-brand mb-0 h1">Welcome! Please login or sign up below!</span>
+            {{/if}}
         </nav>
     </header>
     <main>
