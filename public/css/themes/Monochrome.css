@@ -1,0 +1,11 @@
+body {
+    background-color: #f0f5f9;
+    color: #1e2022;
+    font-family: 'Raleway', sans-serif;
+}
+.grid-item:hover {
+    color: #c9d6df;
+}
+.card-header {
+    background-color: #52616b;
+}

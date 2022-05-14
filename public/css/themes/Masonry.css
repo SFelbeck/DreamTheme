@@ -1,0 +1,11 @@
+body {
+    background-color: #ffffff;
+    color: #d26;
+    font-family: 'Sora', sans-serif;
+}
+.grid-item:hover {
+    color: #a2c;
+}
+.card-header {
+    background-color: #d8d6d2;
+}
