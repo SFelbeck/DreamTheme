@@ -18,14 +18,8 @@
 /* ---- grid-item ---- */
 
 .grid-sizer {
-    width: 33%;
+    width: 25%;
 }
-
-/* .card_container {
-    width: 100% !important;
-    margin: auto !important;
-    text-align: center !important;
-} */
 
 .grid-item {
     border: 2px solid #333;
@@ -34,13 +28,11 @@
     margin: 30px;
 
 }
-.grid-item:hover > .card-header{
-    background-color: #a2c
-}
 
 .grid-item img {
-    width: 680px;
-    height: 360px;
+    max-width: 100%;
+    width: 320px;
+    height: 180px;
 
 }
 
