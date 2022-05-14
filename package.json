@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "resetdb": "mysql -u root -p <  ./db/schema.sql",
-    "seed": "node seeds/index.js",
+    "seed": "node seeds/seed.js",
     "start": "node server.js"
   },
   "repository": {
