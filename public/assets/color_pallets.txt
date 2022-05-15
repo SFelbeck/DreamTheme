@@ -1,0 +1,12 @@
+masonry default https://masonry.desandro.com/
+dark masonry https://colorhunt.co/palette/112b3c205375f66b0eefefef
+sunset https://colorhunt.co/palette/541690ff4949ff8d29ffcd38
+beach https://colorhunt.co/palette/c4ddff7fb5ff001d6efee2c5
+forest https://colorhunt.co/palette/e9efc0b4e19783bd754e944f
+dusk https://colorhunt.co/palette/e9d5da8273974d4c7d363062
+techno https://colorhunt.co/palette/2121213232320d737714ffec
+red alert https://colorhunt.co/palette/2b2e4ae8454590374953354a
+egg hunt https://colorhunt.co/palette/ffcfdffefdcae0f9b5a5dee5
+UW custom
+monochrome https://colorhunt.co/palette/f0f5f9c9d6df52616b1e2022
+autumn https://colorhunt.co/palette/9fc088e8c07dcc704b614124

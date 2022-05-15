@@ -5,58 +5,58 @@ const { User, Theme } = require("../models")
 const themes = [
     {
         name: "Masonry",
-        styleSheet: '<link rel="stylesheet" href="style.css">'
+        styleSheet: "Masonry.css"
     },
     {
         name: "Dark_Masonry",
-        styleSheet: ''
+        styleSheet: 'Dark_Masonry.css'
     },
     {
         name: "Sunset",
-        styleSheet: ''
+        styleSheet: 'Sunset.css'
     },
     {
         name: "Beach",
-        styleSheet: ''
+        styleSheet: 'Beach.css'
     },
     {
         name: "Forest",
-        styleSheet: ''
+        styleSheet: 'Forest.css'
     },
     {
         name: "Dusk",
-        styleSheet: ''
+        styleSheet: 'Dusk.css'
     },
     {
         name: "Techno",
-        styleSheet: ''
+        styleSheet: 'Techno.css'
     },
     {
         name: "Red_Alert",
-        styleSheet: ''
+        styleSheet: 'Red_Alert.css'
     },
     {
         name: "Egg_Hunt",
-        styleSheet: ''
+        styleSheet: 'Egg_Hunt.css'
     },
     {
         name: "UW",
-        styleSheet: ''
+        styleSheet: 'UW.css'
     },
     {
         name: "Monochrome",
-        styleSheet: ''
+        styleSheet: 'Monochrome.css'
     },
     {
         name: "Autumn",
-        styleSheet: ''
+        styleSheet: 'Autumn.css'
     },
 ]
 
 const users = [
     {
-        name: "Andrew",
-        email: "anoor@noor.com",
+        name: "Tester",
+        email: "test@test.com",
         password: "password",
         theme_id: "1"
     },

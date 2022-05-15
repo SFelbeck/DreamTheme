@@ -3,9 +3,9 @@ body {
     color: #f66b0e;
     font-family: 'Source Sans Pro', sans-serif;
 }
-h1 {
+.grid-item:hover {
     color: #efefef;
 }
-div {
+.card-header {
     background-color: #205375;
 }
